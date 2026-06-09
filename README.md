@@ -19,7 +19,7 @@ Der standardmäßige _Package Manager_ für Node.js ist `npm` (_node package man
 
 ## Installation von strapi
 
-Installation mit dem Skript `pnpm create strapi`. Daraufhin führt das CLI durch die Installation. Falls bei der Installation sogenannte `build scripts` nicht ausgeführt werden können, schlägt die CLI die Fehlermeldung selbstständig vor:
+Installation mit dem Skript `pnpm create strapi`. Daraufhin führt das CLI durch die Installation. Falls bei der Installation sogenannte `build scripts` nicht ausgeführt werden können, schlägt die CLI (_Command line interface_) die Fehlermeldung selbstständig vor:
 
 1. Wechsel in das Installationsverzeichnis (z. B. mit`cd Kanuric-strapi`)
 2. Neuerliche Versuch der Installation mit `pnpm install`. Dieser scheitert in der Regel - die Build-Skripte müssen mit `pnpm approve-builds`
