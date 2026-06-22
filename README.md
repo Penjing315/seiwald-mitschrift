@@ -23,3 +23,10 @@ Installation mit dem Skript `pnpm create strapi`. Daraufhin führt das CLI durch
 
 1. Wechsel in das Installationsverzeichnis (z. B. mit`cd Kanuric-strapi`)
 2. Neuerliche Versuch der Installation mit `pnpm install`. Dieser scheitert in der Regel - die Build-Skripte müssen mit `pnpm approve-builds` manuell freigegeben werden.
+
+# VibeCoding / AgenticEngineering mit VS-Code und Github Copilot
+
+VibeCoding passiert in VS-Code in erster Linie über die neu eingeführte Agent View. Dort können alle Anpassungenö des "_Coding Harness_" vorgenommen werden. Wir könnnen unseren _Harness_ mit verschiedenen Methoden anpassen:
+
+-**MCP-Server**:
+MCP steht für _Model Context Protocoll_. Es ist ein Standart der von Anthropic entwickelt wurde. Mit Hilfe von MCP können Chatbots/LLMs (_Large Language Model_) auf zusätzliche Tools zugreifen, die sie zu Experten in einem bestimmten Themenbreich machen.
