@@ -24,6 +24,16 @@ Installation mit dem Skript `pnpm create strapi`. Daraufhin führt das CLI durch
 1. Wechsel in das Installationsverzeichnis (z. B. mit`cd Kanuric-strapi`)
 2. Neuerliche Versuch der Installation mit `pnpm install`. Dieser scheitert in der Regel - die Build-Skripte müssen mit `pnpm approve-builds` manuell freigegeben werden.
 
+# Historische Entwicklung von WebDev
+
+Webdevelopment hat im Lauf der letzten rund 35 Jahre einige Evolutionsstufen durchlaufen
+
+1. Statische Webseiten (HTML, CSS, JS) - initale Phase des Webdevelopments, bei der Inhalte fest im HTML-Code hinterlegt sind. Dominant in den 1990er Jahren.
+
+2. Dynamische Website (mit serverseitiger Programmiersprache - PHP, Python, Ruby, Java, C#) - Inhalte werden in einer Datenbank gespeichert und bei Bedarf dynamisch in HTML-Seiten eingebunden. Dominant in den 2000er Jahren.
+
+3. Single Page Applications (SPA) - mit Javascript-Frameworks erstellte "Web-Apps", die ähnliche Funktionen wie Desktop-Apps bieten. Dominant in den 2010er Jahren.
+
 # VibeCoding / AgenticEngineering mit VS-Code und Github Copilot
 
 VibeCoding passiert in VS-Code in erster Linie über die neu eingeführte Agent View. Dort können alle Anpassungenö des "_Coding Harness_" vorgenommen werden. Wir könnnen unseren _Harness_ mit verschiedenen Methoden anpassen:
