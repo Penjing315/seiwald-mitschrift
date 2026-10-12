@@ -32,7 +32,11 @@ Webdevelopment hat im Lauf der letzten rund 35 Jahre einige Evolutionsstufen dur
 
 2. Dynamische Website (mit serverseitiger Programmiersprache - PHP, Python, Ruby, Java, C#) - Inhalte werden in einer Datenbank gespeichert und bei Bedarf dynamisch in HTML-Seiten eingebunden. Dominant in den 2000er Jahren.
 
-3. Single Page Applications (SPA) - mit Javascript-Frameworks erstellte "Web-Apps", die ähnliche Funktionen wie Desktop-Apps bieten. Dominant in den 2010er Jahren.
+3. Single Page Applications (SPA) - mit Javascript-Frameworks erstellte "Web-Apps", die ähnliche Funktionen wie Desktop-Apps bieten. Dominant in den 2010er Jahren.Um Handy-Apps möglichst nah zu kommen, wurde der Progressive Web App (PWA)-Standard entwickelt werden. Damit können Webbapps offline funktionieren, Push-Benachrichtigungen senden und auf bestimmte native Funktionenn des Geräts zugreifen. Es gibt drei Vorausetzungen, die eine Webbapp erfüllken muss, um als PWA zu gelten:
+
+4. 1.Sie muss über HTTPS ausgeliefert werden. 2.Sie muss ein Web-App-Manifest besitzen. 3.Sie muss Service Worker verwenden, um Inhalte im Cache zu speichern und offline verfügbar zu machen. Ein Service worker ist eine java skirpt datei die im Hintergrund läuft und bestimmte Aufgaben übernimmt, z.B. das Cachen von Inhalten, das Empfangen von Push-Benachrichtigungen oder das Synchronisieren von Daten im Hintergrund, selbst wennd er Browser geschlossen ist.
+
+
 
 # VibeCoding / AgenticEngineering mit VS-Code und Github Copilot
 
