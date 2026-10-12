@@ -34,7 +34,9 @@ Webdevelopment hat im Lauf der letzten rund 35 Jahre einige Evolutionsstufen dur
 
 3. Single Page Applications (SPA) - mit Javascript-Frameworks erstellte "Web-Apps", die ähnliche Funktionen wie Desktop-Apps bieten. Dominant in den 2010er Jahren.Um Handy-Apps möglichst nah zu kommen, wurde der Progressive Web App (PWA)-Standard entwickelt werden. Damit können Webbapps offline funktionieren, Push-Benachrichtigungen senden und auf bestimmte native Funktionenn des Geräts zugreifen. Es gibt drei Vorausetzungen, die eine Webbapp erfüllken muss, um als PWA zu gelten:
 
-4. 1.Sie muss über HTTPS ausgeliefert werden. 2.Sie muss ein Web-App-Manifest besitzen. 3.Sie muss Service Worker verwenden, um Inhalte im Cache zu speichern und offline verfügbar zu machen. Ein Service worker ist eine java skirpt datei die im Hintergrund läuft und bestimmte Aufgaben übernimmt, z.B. das Cachen von Inhalten, das Empfangen von Push-Benachrichtigungen oder das Synchronisieren von Daten im Hintergrund, selbst wennd er Browser geschlossen ist.
+4. 1.Sie muss über HTTPS ausgeliefert werden.
+   2.Sie muss ein Web-App-Manifest besitzen. 
+   3.Sie muss Service Worker verwenden, um Inhalte im Cache zu speichern und offline verfügbar zu machen. Ein Service worker ist eine java skirpt datei die im Hintergrund läuft und bestimmte Aufgaben übernimmt, z.B. das Cachen von Inhalten, das Empfangen von Push-Benachrichtigungen oder das Synchronisieren von Daten im Hintergrund, selbst wennd er Browser geschlossen ist.
 
 
 
@@ -47,4 +49,8 @@ MCP steht für _Model Context Protocoll_. Es ist ein Standart der von Anthropic 
 
 # Javascript-Frontendentwicklung mit Framework (Svelt, React, Vue, Angular)
 
-Frontend
+Frontend Frameworks wenden folgende Arichitekturprizipien an, em eine möglichst gute *User Expirience* (Ux) zu erreichen:
+
+- **Komponenten** - Komponenten sind die wiederverendbaren "Lego"-Bausteine einer Webapp. Sie kapseln HTML, CSS und JavaScript in einer einzigen Einheit, die unabhängig von anderen Komponenten entwickelt und getestet werden kann. Komponenten können verschachtelt werden, um komplexe Benutzeroberflächen zu erstellen.
+
+- **Deklarative Programmierung** - der Javascript- und Template(HTML)-Code beschreibt, wie die Benutzeroberfläche aussehen soll, anstatt wie sie erstellt werden soll. Das Framework übernimmt die Aufgabe, den DOM (Document Object Model) zu aktualisieren, wenn sich der Zustand der Anwendung ändert. Dabei kommt Reactivität ins Spiel: Wenn sich der Zustand einer Komponente ändert, wird die Benutzeroberfläche automatisch aktualisiert, um den neuen Zustand widerzuspiegeln. Wenn die Aktualisierung auch in die andere funktioniert (d.h. wenn sich der Zustand (_state_) der Anwendung entsprechend aktualisiert wird), spricht man von bildrektionaler Datenbindung (_two-way data binding_).  
