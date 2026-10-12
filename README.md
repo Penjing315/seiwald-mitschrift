@@ -44,3 +44,7 @@ VibeCoding passiert in VS-Code in erster Linie über die neu eingeführte Agent 
 
 -**MCP-Server**:
 MCP steht für _Model Context Protocoll_. Es ist ein Standart der von Anthropic entwickelt wurde. Mit Hilfe von MCP können Chatbots/LLMs (_Large Language Model_) auf zusätzliche Tools zugreifen, die sie zu Experten in einem bestimmten Themenbreich machen.
+
+# Javascript-Frontendentwicklung mit Framework (Svelt, React, Vue, Angular)
+
+Frontend
