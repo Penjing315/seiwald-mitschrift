@@ -70,3 +70,6 @@ Der Ordner `.vscode` enthält Einstellungen für den VS-Code-Editor. Der Ordner 
 ![Unterstruktur des src-Ordners](image-1.png)
 
 Der Ordner `src` enthält den Quellcode der Anwendung. Die Dateien `app.css` und `main.js` sind die Einstiegspunkte der Anwendung (in diesem Fall eine SPA). Sie werden vom Browser als erstes geladen, wenn die entsprechende Website aufgerufen wird. Die Datei `app.css` enthält die globalen CCS-Stile der Anwendung. Die Datei `App.svelte` ist die Hauptkomponente der Anwendung, die andere Komponenten importiert und in der Benutzeroberfläche anzeigt. Die Datei `main.js` ist der Einstiegspunkt für das JavaScript/TypeScript der Anwendung. Sie initialisiert die Anwendung in der `App.svelte` und bindet sie an das HTML-Dokument (`index.html` im Root-Ordner).    
+
+Der Ordner `lib` enthält benutzerdefinierte Bibliotheken und Hilfsfunktionen, die in der Anwendung verwendet werden. Der Ordner `components` enthält die wiederverwendbaren Komponenten der Anwendung. Sie sind Bausteine der Benutzeroberfläche. Der Ordner `game` enthält die Logik für das Spiel. Die Datei `store.svelte.ts` enthält den Zustand (_state_) der Anwendung. D. h. sie speichert die Daten, die sich im Laufe der Zeit ändern können (z.B. Spielergebnisse, Einstellungen, etc.) und fungiert als zentrale Datenquelle - _single source of truth_ - .
+ 
