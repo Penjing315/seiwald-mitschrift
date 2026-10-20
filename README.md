@@ -58,9 +58,11 @@ Frontend Frameworks wenden folgende Arichitekturprizipien an, em eine möglichst
 ---
 
 # Frontend-Entwicklung
-(
+
 ## Ordnerstruktur
 
 Die Ordnerstruktur einer typischen Frontend-Anwendung sieht in etwa so aus:
 
 ![Ordnerstruktur einer Svelte-Anwendung](image.png)
+
+Der Ordner .vscode enthält Einstellungen für den VS-Code-Editor. 
